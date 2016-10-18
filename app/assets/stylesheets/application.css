@@ -1,0 +1,16 @@
+
+
+ body{
+   max-width: 800px;
+   font-family:'Helvetica Neue', sans-serif;
+   max-width: 50em;
+   margin:auto;
+   padding:2em 1em;
+ }
+
+ h1 {
+   color: red;
+   letter-spacing:-.2em;
+   text-decoration:none;
+   border-bottom:1px solid black;
+ }
