@@ -6,5 +6,5 @@
   <%= f.button :submit %>
     <% end %>
 
-<%= link_to "Delete Post", post_path(@post), method: :delete%>
+<%= link_to 'Delete!', posts_path(@post), method: :delete, class: 'delete' %>
 <%= link_to "cancel", posts_path%>

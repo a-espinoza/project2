@@ -1,5 +1,8 @@
-<h1>"DronesTagram"</h1>
+<h1>"DroneSTagram"</h1>
+
+<%= link_to "back", posts_path%>
+<%= link_to "edit", edit_post_path%>
+<%= link_to "new", new_post_path%>
 
     <%=image_tag @post.image.url(:medium)%>
     <%=@post.caption%>
-    

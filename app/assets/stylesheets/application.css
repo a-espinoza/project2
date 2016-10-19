@@ -1,16 +1,11 @@
+body {
+  background-color: #fafafa;
+  font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
 
+body h1{
+  font-size: 200px;
+  color: red;
+}
 
- body{
-   max-width: 800px;
-   font-family:'Helvetica Neue', sans-serif;
-   max-width: 50em;
-   margin:auto;
-   padding:2em 1em;
- }
-
- h1 {
-   color: red;
-   letter-spacing:-.2em;
-   text-decoration:none;
-   border-bottom:1px solid black;
- }
+require_tree

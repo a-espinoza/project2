@@ -46,6 +46,7 @@ def destroy
   redirect_to posts_path
 end
 
+
 private
 
 #Prevent from allowing diffrent kinds of files.. Image and text for caption!
